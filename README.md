@@ -1,18 +1,18 @@
-🎲 Number Guessing Game
+🎲 Number Guessing Game: 
 A simple number guessing game built using JavaScript! In this game, the user tries to guess a randomly generated number between 1 and 100.
 After each attempt, the game provides hints on whether the guessed number is too low or too high. The goal is to guess the correct number in as few tries as possible.
 
-🚀 Features
+🚀 Features: 
 Generates a random number between 1 and 100.
 Provides hints to help the user guess correctly.
 Displays the number of attempts made and calculates a score.
 Handles invalid inputs and cancellation gracefully.
 
-🛠️ Technologies Used
+🛠️ Technologies Used: 
 HTML (for structure, if needed)
 JavaScript (for game logic)
 
-📋 How to Run the Project Locally
+📋 How to Run the Project Locally: 
 Clone the repository:
 
 bash
@@ -42,10 +42,10 @@ Copy code
 Run the code:
 Open the index.html file in your browser or use Live Server in VSCode:
 
-Option 1: Right-click on the HTML file and select Open with Live Server.
+Option 1: Right-click on the HTML file and select Open with Live Server. 
 Option 2: Open the HTML file directly in a web browser.
 
-🎮 How to Play
+🎮 How to Play: 
 A random number between 1 and 100 is generated at the start of the game.
 The user is prompted to guess the number.
 After each attempt:
@@ -58,7 +58,7 @@ Upon guessing the correct number:
 The game will display the number of guesses made.
 A score will be calculated: Score = (100 - chances) %.
 
-📝 Code Snippet
+📝 Code Snippet: 
 Here’s the core logic of the game:
 
 javascript
@@ -97,7 +97,7 @@ if (usernumber === number) {
     alert("Your score is: " + (100 - chances) + "%");
 }
 
-📂 Project Structure
+📂 Project Structure: 
 bash
 Copy code
 number-guessing-game/
@@ -106,21 +106,21 @@ number-guessing-game/
 ├── script.js          # JavaScript code with game logic
 └── README.md          # Project documentation
 
-🏆 Future Improvements
+🏆 Future Improvements: 
 Add a graphical user interface (GUI) to replace the prompt() dialogs.
 Implement difficulty levels (easy, medium, hard).
 Track high scores using local storage or a database.
 Provide a restart option at the end of the game.
 
-🤝 Contribution
+🤝 Contribution: 
 Feel free to fork this repository, make changes, and submit a pull request! All contributions are welcome.
 
-📜 License
+📜 License: 
 This project is licensed under the MIT License.
 
-📧 Contact
+📧 Contact: 
 For any questions or suggestions, reach out to:
-Your Name – Your Email
+Mohammed Raza Moghul - mohdrazamoghul2018@gmail.com
 
 Feel free to replace placeholders (like Your Name or your-username) with your information.
 
